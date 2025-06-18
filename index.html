@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evi Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Evi Store</h1>
+    </header>
+
+    <div class="carrusel">
+        <div class="carrusel-inner">
+            <div class="carrusel-item active">
+                <div class="carrusel-item-content">
+                    <img src="images/juice.png">
+                    <p class="price">$20</p>
+                </div>
+            </div>
+            <div class="carrusel-item">
+                <div class="carrusel-item-content">
+                    <img src="images/chips.png">
+                    <p class="price">$100</p>
+                </div>
+            </div>
+            <div class="carrusel-item">
+                <div class="carrusel-item-content">
+                    <img src="images/gum.png">
+                    <p class="price">$10</p>
+                </div>
+            </div>
+            <div class="carrusel-item">
+                <div class="carrusel-item-content">
+                    <img src="images/ps5.png">
+                    <p class="price">$1,000,000</p>
+                </div>
+            </div>
+            <div class="carrusel-item">
+                <div class="carrusel-item-content">
+                    <img src="images/halls.png">
+                    <p class="price">$30</p>
+                </div>
+            </div>
+        </div>
+        <button class="carrusel-control prev" onclick="cambiarSlide(-1)">&#10094;</button>
+        <button class="carrusel-control next" onclick="cambiarSlide(1)">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
